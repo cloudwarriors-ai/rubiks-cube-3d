@@ -1,0 +1,16 @@
+{
+  "name": "rubiks-cube-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Rubik's Cube 3D simulator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0"
+  }
+}
